@@ -23,7 +23,7 @@ Todo lo que se encuentra en la parte teorica puede ser encontrado en los siguien
 ```
 
 3. **Problema 3**: Hacer un programa que genere un numero de aleatorios determinado por el usuario dentro de dos limites tambien ingresados por el usuario
-```
+
 4. **Problema 4**: Escriba una función que tome un valor entero y devuelva el número con sus dígitos en reversa. Por ejemplo, dado el numero 7631, la función deberá devolver 1367.
 
 5. **Problema 5**: Una ecuación cuadrática es aquella que tiene la siguiente forma:
@@ -49,8 +49,6 @@ a. Realizar una función (declaración y definición) que calcule el discriminan
 * Cuando D > 0 la función deberá devolver 1.
 
 b. Una vez realizado lo anterior realizar un test breve de la función.
-
-
 
 c. Realizar un programa que solicite por teclado los valores de los coeficientes y de acuerdo a estos, despliegue si la ecuación cuadrática tiene raíces reales y distintas, reales e iguales o complejas conjugadas. Para tal fin se debe hacer uso de la función discriminante previamente creada.
 
