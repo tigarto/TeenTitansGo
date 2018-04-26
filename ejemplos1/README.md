@@ -6,7 +6,11 @@
 
 ## 1. Resumen y repaso
 
-Todo lo que se encuentra en la parte teorica puede ser repasado de manera interactiva mediante en el enlace [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet).
+Todo lo que se encuentra en la parte teorica puede ser encontrado en los siguientes recursos en internet:
+1. [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet).
+2. [dotnetperls](https://www.dotnetperls.com/)
+3. [gobyexample](https://gobyexample.com/)
+4. [golang.org](https://golang.org/)
 
 ## 2. Problemas propuestos
 
@@ -18,33 +22,8 @@ Todo lo que se encuentra en la parte teorica puede ser repasado de manera intera
 1 + x + x^2 + x^3 + x^4 + ⋯ + x^n
 ```
 
-3. **Problema 3**: Dado el siguiente código fuente:
-
-```C
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-int main () {
-  int N, M, cant, i, aleatorio;
-  printf("Digite la cantidad de números que desea generar: ");
-  scanf("%d",&cant);
-  printf("Digite los limites (primero el superior, luego el inferior): ");
-  scanf("%d%d",&N,&M);
-  srand(time(NULL)); // Inicializacion del generador
-  for(i = 0; i < cant; i ++) {
-    aleatorio = rand()%(N-M+1)+M; //Genera un numero entre M y N
-    printf("%d ", aleatorio);
-  }
-  printf("\n", aleatorio);
-  system("PAUSE");
-  return 0;
-}
+3. **Problema 3**: Hacer un programa que genere un numero de aleatorios determinado por el usuario dentro de dos limites tambien ingresados por el usuario
 ```
-a. Compile y ejecute el código fuente anteriormente mostrado. ¿Qué es lo que hacen las funciones  srand() y rand()? (Los singientes enlaces pueden serle de utilidad: [1](http://www.chuidiang.org/clinux/funciones/rand.php) y [2](http://arantxa.ii.uam.es/~swerc/ole/ejemplos/crandom.html))
-b. Escriba una función que genere un número aleatorio entre a y b. **Ayuda**: Use las funciones **srand()** y **rand()** anteriormente mencionadas.
-c. Realice un programa que invocando la función anteriormente creada, funcione de manera similar al programa analizado en el punto a.
-
 4. **Problema 4**: Escriba una función que tome un valor entero y devuelva el número con sus dígitos en reversa. Por ejemplo, dado el numero 7631, la función deberá devolver 1367.
 
 5. **Problema 5**: Una ecuación cuadrática es aquella que tiene la siguiente forma:
@@ -69,28 +48,9 @@ a. Realizar una función (declaración y definición) que calcule el discriminan
 * Cuando D = 0 la función deberá devolver 0.
 * Cuando D > 0 la función deberá devolver 1.
 
-b. Una vez realizado lo anterior realizar un test breve de la función (el cual debe ser sustentado al docente) adaptando la declaración y la definición en el siguiente archivo fuente en el cual esta es invocada en el main:
-
-```C
-#include <stdio.h>
-
-// Aquí van los prototipos de la funciones
-
-int main() {
-  int x = 1,y = 2,z = 6,w;
-  w = discriminante(1,0,1);
-  printf("w = %d\n",w);
-  w = discriminante(y,z,x);
-  printf("w = %d\n",w);
-  w = discriminante(y++,--z,5);
-  printf("w = %d\n",w);
-  return 0;
-}
+b. Una vez realizado lo anterior realizar un test breve de la función.
 
 
-// Aquí van las definiciones de las funciones
-
-```
 
 c. Realizar un programa que solicite por teclado los valores de los coeficientes y de acuerdo a estos, despliegue si la ecuación cuadrática tiene raíces reales y distintas, reales e iguales o complejas conjugadas. Para tal fin se debe hacer uso de la función discriminante previamente creada.
 
