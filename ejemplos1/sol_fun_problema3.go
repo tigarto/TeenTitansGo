@@ -12,7 +12,6 @@ func random(min, max int) int {
     return rand.Intn(max - min) + min
 }
 
-
 func main() {
   //var N, M, cant, i, aleatorio int
   var N, M, cant, aleatorio int

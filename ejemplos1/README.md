@@ -1,54 +1,14 @@
-# Laboratorio de introducción al lenguaje C
+# Ejemplos Go
 
 > **Objetivos**
-> * Reforzar los conceptos discutidos en el laboratorio.
-> * Ir ganando experiencia en la resolución de problemas empleando lenguaje C.
+> * Aprender go
+> * Hacer ejercicios de go
 
 ## 1. Resumen y repaso
 
-Todo lo que se encuentra en la parte teorica puede ser repasado de manera interactiva mediante en el enlace [learn-c](http://www.learn-c.org/). Se recomienda incluso, darle una mirada a la parte de **Learn the Basics** allí propuesta si lo considera pertinente (para mejorar la comprensión del contenido que esta en la teoria).
+Todo lo que se encuentra en la parte teorica puede ser repasado de manera interactiva mediante en el enlace [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet).
 
-## 2. Ejemplos de repaso
-
-A modo de repaso se mostraran algunos ejercicios resueltos que implican el uso de programacion modular. Puede descargarlos, compilarlos y ejecutarlos.
-
-1. Hacer un programa que calcule el máximo de 2 números.
-
-**Solucion**: [ejemplo1_sol.c](ejemplo1_sol.c)
-
-2. Hacer un programa que diga si un numero es cuadrado perfecto.
-
-**Solucion**: [ejemplo2_sol.c](ejemplo1_sol.c)
-
-3. Hacer un programa que permita calcular el área de diferentes figuras geométricas.
-
-**Solucion**: [ejemplo3_sol.c](ejemplo1_sol.c)
-
-4. Hacer una función que solicite 2 números, genere 10 números aleatorios entre estos 2
-números y cuente la cantidad de números pares.
-
-**Solucion**: [ejemplo4_sol.c](ejemplo1_sol.c)
-
-5. Realizar un programa que calcule el valor de la función seno usando la serie equivalente para
-ello. Los valores de entrada son x y el número de términos. A continuación se muestra la serie
-equivalente:
-
-**Solucion**: [ejemplo5_sol.c](ejemplo1_sol.c)
-
-## 3. Casos de aplicacion
-
-A continuación se muestran algunos proyectos de programación un poco mas complejos. Ejecutelos, compilelos, ejecutelos y entiendalos, le servirá
-
-1. **Caso 1**: a continuacion se muestra un código de aplicación (tomado del libro: **C programming for the absolute beginner**) el cual permite crear un quiz para enseñar a multiplicar.
-
-**Solucion**: [Enlace externo](https://raw.githubusercontent.com/malmhaug/C_AbsBegin/master/C4E4MathQuiz.c)
-
-2. **Caso 2**: a continuación se muestra el código de un juego de adivinanzas (tomado del libro: **C programming for the absolute beginner**).
-
-**Solucion**: [Enlace externo](https://github.com/malmhaug/C_AbsBegin/blob/master/C5E4TriviaTrackedAnswere.c)
-
-
-## 3. Problemas propuestos
+## 2. Problemas propuestos
 
 1. **Problema 1**: Escriba una función llamada múltiplo que tome dos enteros y determine si el segundo es múltiplo del primero. La función deberá tomar dos argumentos enteros y devolver 1 si el segundo es un múltiplo del primero y 0 si no. Luego, utilice esta función en un programa que acepte como entrada una serie de pares de enteros.
 
