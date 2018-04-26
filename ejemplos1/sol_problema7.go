@@ -15,17 +15,6 @@ func generar_digito() int {
   return random(0, 10)
 }
 
-func lanzarMondena(numL int)  {
-  for i := 0; i < numL; i++ {
-    if random(0, 2) == 0 {
-      fmt.Print("C")
-    } else {
-      fmt.Print("S")
-    }
-  }
-  fmt.Print("\n")
-}
-
 func main() {
   rand.Seed(time.Now().Unix())
   var salir string = "n"
