@@ -91,7 +91,14 @@ func main() {
   var a float64
   var b float64
   var c float64
-  fmt.Printf("\n(%.1f)x^2 + (%.1f)*x + (%.1f) = 0\n",a , b, c)
+  fmt.Printf("Ingrese los coeficientes:\n")
+  fmt.Printf("a -> ")
+  fmt.Scanln(&a)
+  fmt.Printf("b -> ")
+  fmt.Scanln(&b)
+  fmt.Printf("c -> ")
+  fmt.Scanln(&c)
+  fmt.Printf("\nEcuacion: (%.1f)x^2 + (%.1f)*x + (%.1f) = 0\n",a , b, c)
   fmt.Printf("\nRaices de la ecuacion ->\n")
   obtener_raices(a, b, c)
 
